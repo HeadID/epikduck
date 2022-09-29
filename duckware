@@ -1,0 +1,7 @@
+-- why are you looking into the script?
+-- duckwarepriv
+ 
+local A_1 = "quack quack"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
